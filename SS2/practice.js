@@ -5,16 +5,16 @@ var text_2 = "World!"
 console.log(text_1 + " " + text_2)
 
 // Bài 1:
-var text = "lvv jsb04";
-var result = "";
+let text = "lvv jsb04";
+let result = "";
 
 // Hàm viết hoa: toUpperCase
 // Vòng lặp
 // Điều kiện
 
-for (let i = 0; i <= text.length; i++){
+for (let i = 0; i < text.length; i++){
     if (i == 0){
-        result = result + text[0].toUpperCase();
+        result = result + text[i].toUpperCase();
     }
     else if (text[i - 1] == " "){
         result = result + text[i].toUpperCase();
