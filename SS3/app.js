@@ -1,3 +1,14 @@
+// Các phép toán: + - * / %
+// Các phép so sánh: > < >= <= == != ---> === !==
+// Các phép logic: && (và) || (hoặc) ! (khác hoặc đảo)
+// Vòng lặp: for , while (kiểm tra điều kiện trước), do while (thực hiện trước và kiểm tra điều kiện sau)
+
+// Yêu cầu nhập giá trị bàn phím: promp()
+// Hàm thông báo: alert()
+
+// Câu lệnh điều kiện: if else, if else if else if ..... else
+// Lưu ý: nếu bên trong câu lệnh của mình chỉ có 1 block lệnh thì có thể bỏ đi dấu { }
+
 // Bài Vòng lặp
 let n; 
 do{
@@ -6,7 +17,6 @@ do{
 S
 console.log("n is positive")
 
-
 // Bài 1
 let a = prompt("Enter value a:")
 let b = prompt("Enter value b:")
@@ -14,7 +24,6 @@ if (a > b)
     console.log("A is greater")
 else
     console.log("B is greater")
-
 
 // Bài 2 
 let a = prompt("Enter value a:")
