@@ -26,17 +26,17 @@ else
     console.log("B is greater")
 
 // Bài 2 
-let a = prompt("Enter value a:")
-let b = prompt("Enter value b:")
-let c = prompt("Enter value b:")
+let x = prompt("Enter value a:")
+let y = prompt("Enter value b:")
+let z = prompt("Enter value b:")
 
-if (a < 0){
+if (x < 0){
     console.log("Dấu -");
 }
-else if (b < 0){
+else if (y < 0){
     console.log("Dấu -")
 }
-else if (c < 0) {
+else if (z < 0) {
     console.log("Dấu -")
 }
 else {
