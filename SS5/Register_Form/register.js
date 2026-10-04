@@ -17,7 +17,7 @@ registerForm.addEventListener("submit", function (event) {
   };
 
     // Lưu giá trị key - value trong localstorage
-    localStorage.setItem('fullName', user.fullName);
+    localStorage.setItem('fullName', user.fullNme);
     localStorage.setItem('username', user.username);
     console.log(user);
 });
