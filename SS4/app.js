@@ -127,5 +127,15 @@ code_1 = code_1 + ' :AAA'
 text_1.innerHTML = code_1
 
 let code_2 = text_2.innerHTML
-code_2 = code_2 + ' :AAA'
+code_2 = code_2 + ' :AAA' // NỘI DUNG 2: AAA
 text_2.innerHTML = code_2
+
+// TẠO THẺ
+let tittle = document.createElement('h1')
+document.body.appendChild(tittle)
+
+tittle.style.color = 'red'
+tittle.style.fontSize = '60px'
+
+tittle.innerHTML = 'TIÊU ĐỀ 1'
+
